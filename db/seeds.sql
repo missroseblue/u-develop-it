@@ -8,9 +8,9 @@ VALUES
 ('Dora', 'Carrington', 0),
 ('Edward', 'Bellamy', 0),
 ('Montague', 'Summers', 1),
-  ('Octavia', 'Butler', 1),
-  ('Unica', 'Zurn', 1);
+('Octavia', 'Butler', 1),
+('Unica', 'Zurn', 1);
 
-  UPDATE candidates
+UPDATE candidates
 SET industry_connected = 1
 WHERE id = 3;
